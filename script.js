@@ -30,5 +30,16 @@ nav.animate(
   }
 );
 
+// TypeWriter effect
+const animh1 = document.querySelector("h1");
+
+new Typewriter(animh1, {
+})
+.changeDelay(50)
+.typeString("Bonjour,")
+.pauseFor(200)
+.typeString(" je m'appelle Matéo Guenot.")
+.start()
+
 
 
