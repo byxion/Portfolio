@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Krona+One&family=Space+Grotesk&family=Syne&display=swap%22");
+
+/* Reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --main-bg-color: #131316;
+  --main-text-color: #ffffff;
+  --main-nav-color: red;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+/* Scroll Tracker */
+.scroll-tracker {
+  position: fixed;
+  inset: 0 0 auto;
+  height: 3.5rem;
+  background-color: var(--main-nav-color);
+  transform-origin: top;
+  z-index: 1;
+}
+
+/* Nav bar */
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 3.5rem;
+  z-index: 2;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  list-style: none;
+  padding: 0 1rem;
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+li {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--main-text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+/* Body */
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: "Space Grotesk", sans-serif;
+}
+
+/* Arrive en écriture */
+h1 {
+  position: relative;
+  font-size: 2em;
+  font-family: "Source Code Pro", monospace;
+  margin: 10px;
+}
+
+h1::before,
+h1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h1::before {
+  background-color: var(--main-bg-color);
+  animation: typewriter 3s steps(35) 1s forwards;
+}
+
+h1::after {
+  width: 0.125em;
+  background-color: var(--main-text-color);
+  animation: blink 0.8s steps(35) infinite, typewriter 3s steps(35) 1s forwards;
+}
+
+.welcome span {
+  margin: 10px;
+}
+/* Arrivée du bas */
+.welcome-sentence {
+  font-size: 1em;
+  font-weight: 400;
+  font-family: "Source Code Pro", monospace;
+  opacity: 0;
+  transform: translateY(1em);
+  animation: fadeInUp 1s ease calc(4s) forwards;
+}
+
+.order {
+  animation-delay: 4.5s;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    background-color: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Section */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
