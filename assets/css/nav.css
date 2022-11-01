@@ -14,13 +14,9 @@
   --main-nav-text-color: #101081;
 }
 
-/* Body */
-/* .container-all {
-  position: relative;
-
-  background-color: var(--main-bg-color);
-  color: var(--main-text-color);
-} */
+.container-all {
+  padding-top: 3.5rem;
+}
 
 :root {
   scroll-behavior: smooth;
