@@ -209,6 +209,10 @@ main {
 
 /* ****************** PROFIL ********************* */
 main section {
+  align-items: none;
+  justify-content: none;
+  min-height: auto;
+  width: 10px;
   margin-bottom: 20px;
 }
 

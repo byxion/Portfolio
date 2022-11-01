@@ -1,14 +1,16 @@
+<?php require_once(PATH_VIEWS . "nav.php")?>
+
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mon CV</title>
-    <link rel="stylesheet" href="CV.css" />
-  </head>
-  <body>
-    <div class="container">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="<?= PATH_CSS ?>CV.css">
+</head>
+
+<div class="container">
       <!-- "Feuille" du CV -->
       <header>
         <h1>MATEO GUENOT</h1>
@@ -19,7 +21,7 @@
       <aside>
         <div>
           <!-- Ici une div car pas de titre donc ce n'est pas un article -->
-          <img id="Photo" src="./img/001v.jpg" alt="photo de profil" />
+          <img id="Photo" src="<?= PATH_IMAGES ?>001v.jpg" alt="photo de profil" />
         </div>
         <article>
           <h2>PERSONNEL</h2>
@@ -47,14 +49,14 @@
             <!-- Pour faire du grid sur css -->
             <div class="Voyage">
               <!-- Pour ajouter le texte qui apparait en dessous -->
-              <img src="./img/manette.png" alt="logo-voyage" class="Image" />
+              <img src="<?= PATH_IMAGES ?>manette.png" alt="logo-voyage" class="Image" />
               <div class="content">
                 <p>Jeux Vidéo</p>
               </div>
             </div>
             <div class="Velo">
               <img
-                src="./img/Velo_transparent.png"
+                src="<?= PATH_IMAGES ?>Velo_transparent.png"
                 alt="logo-velo"
                 class="Image"
               />
@@ -64,7 +66,7 @@
             </div>
             <div class="Musique">
               <img
-                src="./img/Musique_transparent.png"
+                src="<?= PATH_IMAGES ?>Musique_transparent.png"
                 alt="logo-musique"
                 class="Image"
               />
@@ -79,7 +81,7 @@
           <div class="Trait-noir-aside"></div>
           <div id="qr-code">
             <img
-              src="./img/Linkedin_transparent.png"
+              src="<?= PATH_IMAGES ?>Linkedin_transparent.png"
               alt="logo-linkedin"
               id="linkedin"
             />

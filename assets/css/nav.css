@@ -15,12 +15,12 @@
 }
 
 /* Body */
-.container-all {
+/* .container-all {
   position: relative;
 
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
-}
+} */
 
 :root {
   scroll-behavior: smooth;

@@ -5,11 +5,13 @@ h1 {
   font-family: "Source Code Pro", monospace;
   margin: 10px;
   text-align: center;
+  color: var(--main-text-color);
 }
 
 .welcome > span {
   margin: 10px;
   text-align: center;
+  color: var(--main-text-color);
 }
 /* Arrivée du bas */
 .welcome-sentence {
@@ -39,6 +41,7 @@ section {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: var(--main-bg-color);
 }
 
 /* Qui suis-je */
@@ -56,6 +59,7 @@ section.about {
   align-items: flex-start;
   width: clamp(320px, 70%, 600px);
   padding: 0 1rem;
+  color: var(--main-text-color);
 }
 
 .about-content > h2 {
