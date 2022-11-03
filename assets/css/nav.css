@@ -29,7 +29,7 @@
   height: 3.5rem;
   background-color: var(--main-nav-color);
   transform-origin: top;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Nav bar */
@@ -69,4 +69,91 @@ li {
 a {
   text-decoration: none;
   color: var(--main-nav-text-color);
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Menu burger */
+
+.menu-burger {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .menu-btn {
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .menu-btn-burger {
+    width: 40px;
+    height: 4px;
+    background: var(--main-nav-text-color);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    transition: all 0.5s ease-in-out;
+  }
+  .menu-btn-burger::before,
+  .menu-btn-burger::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: var(--main-nav-text-color);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    transition: all 0.5s ease-in-out;
+  }
+  .menu-btn-burger::before {
+    transform: translateY(-10px);
+  }
+  .menu-btn-burger::after {
+    transform: translateY(10px);
+  }
+  /* ANIMATION */
+  .menu-btn.open .menu-btn-burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  .menu-btn.open .menu-btn-burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .menu-btn-burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+  .right {
+    position: absolute;
+    opacity: 0;
+    left: -100%;
+    transition: 0.5s;
+  }
+
+  .right-open {
+    position: fixed;
+    top: 3.5rem;
+    left: 0;
+    opacity: 1;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+    background: var(--main-nav-color);
+    border-top: var(--main-nav-text-color) 1px solid;
+  }
+
+  .right-open li {
+    padding: 1rem 0;
+    border-bottom: var(--main-nav-text-color) 1px solid;
+  }
 }

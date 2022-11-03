@@ -10,7 +10,7 @@
   <!-- <link rel="stylesheet" href="<?= PATH_CSS ?>loader.css"> -->
 
 
-  <!-- <script defer src="<?= PATH_SCRIPTS ?>nav.js" type="module"></script> -->
+  <script defer src="<?= PATH_SCRIPTS ?>navMenu.js" type="module"></script>
   <!-- <script defer src="./loader/loader.js"></script>
     <link rel="stylesheet" href="./loader/loader.css" /> -->
 </head>
@@ -27,13 +27,23 @@
   <nav>
     <ul>
       <div class="left">
-        <li>LOGO</li>
-        <li><a href="index.php">Matéo Guenot</a></li>
+        <a href="index.php">
+          <li>Matéo Guenot</li>
+        </a>
+      </div>
+      <div class="menu-btn">
+        <div class="menu-btn-burger"></div>
       </div>
       <div class="right">
-        <li><a href="?page=CV">CV</a></li>
-        <li><a href="?page=projet">Projets</a></li>
-        <li><a href="?page=contact">Contact</a></li>
+        <a href="?page=CV">
+          <li>CV</li>
+        </a>
+        <a href="?page=projet">
+          <li>Projets</li>
+        </a>
+        <a href="?page=contact">
+          <li>Contact</li>
+        </a>
       </div>
     </ul>
   </nav>

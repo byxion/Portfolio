@@ -9,7 +9,6 @@
   --couleur2: rgb(245, 245, 245);
   --couleur3: rgb(220, 220, 220);
   --couleur4: rgb(105, 105, 105);
-  font-family: "Titillium Web", sans-serif;
 }
 body {
   display: flex;
@@ -30,6 +29,7 @@ body {
     "footer footer";
   box-shadow: 5px 5px 14px 10px rgba(0, 0, 0, 0.63);
   margin: 20px 0 20px 0;
+  font-family: "Titillium Web", sans-serif;
 }
 
 header {
@@ -38,7 +38,7 @@ header {
 aside {
   grid-area: aside;
 }
-main {
+main.cv {
   grid-area: main;
 }
 footer {
@@ -202,17 +202,13 @@ aside article h2 {
 /* ------------------------ FIN ASIDE -------------------------- */
 
 /* ------------------------ MAIN ------------------------- */
-main {
+main.cv {
   padding: 30px;
   background-color: var(--couleur2);
 }
 
 /* ****************** PROFIL ********************* */
-main section {
-  align-items: none;
-  justify-content: none;
-  min-height: auto;
-  width: 10px;
+main.cv section {
   margin-bottom: 20px;
 }
 
@@ -469,13 +465,13 @@ footer p {
       justify-content: center;
     }
 
-    main {
+    main.cv {
       display: flex;
       align-items: center;
       flex-direction: column;
     }
 
-    main > section {
+    main.cv > section {
       width: 90%;
       display: flex;
       align-items: center;

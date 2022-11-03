@@ -5,7 +5,8 @@
   <script defer src="https://unpkg.com/typewriter-effect@latest/dist/core.js">
   </script>
   <script defer type="module" src="<?= PATH_SCRIPTS ?>accueil.js"></script>
-  <script defer type="module" src="<?= PATH_SCRIPTS ?>nav.js"></script>
+  <script defer src="<?= PATH_SCRIPTS ?>navScroll.js" type="module"></script>
+  <script defer src="<?= PATH_SCRIPTS ?>navMenu.js" type="module"></script>
 </head>
 <section class="welcome">
   <h1></h1>
@@ -38,7 +39,7 @@
     </div>
   </div>
   <div class="about-img">
-    <img src="./assets/img/dev-pict.jpg" alt="about" />
+    <img src="<?= PATH_IMAGES ?>dev-pict.jpg" alt="about" />
   </div>
 </section>
 </body>
