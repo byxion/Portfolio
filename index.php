@@ -6,7 +6,7 @@ require_once("config/config.php");
 if (isset($_GET['page'])) {
   $page = htmlspecialchars($_GET['page']); // http://.../index.php?page=toto
   if (!is_file(PATH_VIEWS . $_GET['page'] . ".php")) {
-    $page = '404'; //page demandée inexistante
+    $page = 'accueil'; //page demandée inexistante
   }
 } else
   $page = 'accueil'; //page d'accueil du site - http://.../index.php

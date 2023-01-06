@@ -1,0 +1,15 @@
+.title {
+  font-family: "Source Code Pro", sans-serif;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: 500;
+  color: var(--main-nav-text-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sae {
+  height: 100%;
+  width: 100%;
+}

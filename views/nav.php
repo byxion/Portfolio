@@ -35,6 +35,9 @@
         <div class="menu-btn-burger"></div>
       </div>
       <div class="right">
+        <a href="?page=competences">
+          <li>Compétences</li>
+        </a>
         <a href="?page=CV">
           <li>CV</li>
         </a>
