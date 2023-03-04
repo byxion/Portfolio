@@ -5,7 +5,8 @@
 	background-color: var(--main-bg-color);
 	line-height: 1.6;
 	place-items: center;
-	height: 100vh;
+	height: 100%;
+	min-height: calc(100vh - 3.5rem);
 }
 
 .container span {

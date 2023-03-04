@@ -23,7 +23,7 @@
       <h2>PERSONNEL</h2>
       <div class="Personnel">
         <span class="Nom-Age">Nom</span><span>Mateo Guenot</span>
-        <span class="Nom-Age">Age</span><span>18 ans</span>
+        <span class="Nom-Age">Age</span><span>20 ans</span>
         <span class="Nom-Age">Nationnalité</span><span>Français</span>
         <span class="Nom-Age">Langues</span><span>Français, Anglais</span>
       </div>
@@ -31,9 +31,8 @@
     <article>
       <h2>CONTACT</h2>
       <div class="Personnel">
-        <span class="Mobile-Mail">Mobile</span><span>06 23 88 68 46</span>
         <span class="Mobile-Mail">Mail</span><span id="break">mateo.guenot20@gmail.com</span>
-        <span class="Mobile-Mail">Adresse</span><span>601 Rue du genetay</span>
+        <span class="Mobile-Mail">Adresse</span><span>Lucenay 69480</span>
       </div>
     </article>
     <article>
@@ -134,10 +133,8 @@
   </main>
   <footer>
     <p>
-      <span class="couleur-inversé">Mateo Guenot</span>, 601 Rue du genetay
-      69480 Lucenay, <span class="couleur-inversé">Téléphone</span> 06 23 88
-      68 46,
-      <span class="couleur-inversé">Mail</span> mateo.guenot2003@gmail.com
+      <span class="couleur-inversé">Mateo Guenot</span>, <span class="couleur-inversé">Adresse</span>
+      69480 Lucenay, <span class="couleur-inversé">Mail</span> mateo.guenot20@gmail.com
     </p>
   </footer>
 </div>
