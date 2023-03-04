@@ -24,11 +24,11 @@ h1 {
   font-family: "Source Code Pro", monospace;
   opacity: 0;
   transform: translateY(1em);
-  animation: fadeInUp 1s ease calc(2.5s) forwards;
+  animation: fadeInUp 2s ease calc(3.5s) forwards;
 }
 
 .order {
-  animation-delay: 3s;
+  animation-delay: 5s;
 }
 
 @keyframes fadeInUp {

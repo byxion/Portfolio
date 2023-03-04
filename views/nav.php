@@ -9,10 +9,9 @@
   <link rel="stylesheet" href="<?= PATH_CSS ?>nav.css">
   <!-- <link rel="stylesheet" href="<?= PATH_CSS ?>loader.css"> -->
 
-
-  <script defer src="<?= PATH_SCRIPTS ?>navMenu.js" type="module"></script>
-  <!-- <script defer src="./loader/loader.js"></script>
-    <link rel="stylesheet" href="./loader/loader.css" /> -->
+    <script defer src="<?= PATH_SCRIPTS ?>navMenu.js" type="module"></script>
+    <!-- <script defer src="./loader/loader.js"></script>
+      <link rel="stylesheet" href="./loader/loader.css" /> -->
 </head>
 
 <body>
@@ -23,7 +22,6 @@
     ><span class="lettre">M</span><span class="lettre">E</span
     ><span class="lettre">N</span><span class="lettre">T</span>
   </div> -->
-  <div class="scroll-tracker"></div>
   <nav>
     <ul>
       <div class="left">

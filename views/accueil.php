@@ -5,7 +5,6 @@
   <script defer src="https://unpkg.com/typewriter-effect@latest/dist/core.js">
   </script>
   <script defer type="module" src="<?= PATH_SCRIPTS ?>accueil.js"></script>
-  <script defer src="<?= PATH_SCRIPTS ?>navScroll.js" type="module"></script>
   <script defer src="<?= PATH_SCRIPTS ?>navMenu.js" type="module"></script>
 </head>
 <section class="welcome">

@@ -3,6 +3,7 @@ const animh1 = document.querySelector("h1");
 
 new Typewriter(animh1, {
 })
+  .pauseFor(800)
 .changeDelay(50)
 .typeString("Bonjour,")
 .pauseFor(200)
