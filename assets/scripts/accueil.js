@@ -3,38 +3,26 @@ const animh1 = document.getElementById('toWrite');
 
 new Typewriter(animh1, {
 })
-.pauseFor(800)
+.pauseFor(1300)
 .changeDelay(50)
 .typeString("Dév Full-Stack ")
 .pauseFor(200)
 .deleteChars(11)
-.typeString("<span style='color: #FF5154'>HTML</span> / <span style='color: #2D7DD2'>CSS</span>, ")
+.typeString("<span style='color: #FF5154'>HTML</span> / <span style='color: #2D7DD2'>CSS</span> ")
 .pauseFor(200)
-.deleteChars(12)
-.typeString("<span style='color: #FAFF7F'>JavaScript</span>, ")
+.deleteChars(11)
+.typeString("<span style='color: #FAFF7F'>JavaScript</span> ")
 .pauseFor(200)
-.deleteChars(12)
+.deleteChars(11)
 .typeString("<span style='color: #91A6FF'>PHP</span>.")
-.pauseFor(200)
-.start()
-
-const langdev = document.querySelector(".language-web");
-
-new Typewriter(langdev, {
-
-})
-.changeDelay(50)
-.typeString("l'HTML / CSS, ")
-.pauseFor(200)
-.typeString("le JavaScript, ")
-.pauseFor(200)
-.typeString("et le PHP.")
 .pauseFor(200)
 .start()
 
 const welcome = document.querySelector('.welcome');
 const followCircle = document.querySelector('.followCircle');
 const nameToAdd = document.querySelector('#int');
+
+let isHovering = false; 
 
 welcome.addEventListener('mousemove', e => {
   let x = e.pageX - followCircle.clientWidth / 2;
@@ -65,3 +53,9 @@ const toAbout = document.querySelector('.about');
 toAboutButton.addEventListener('click', e => {
   toAbout.scrollIntoView({behavior: "smooth"});
 })
+
+
+// nameToAdd.addEventListener("mouseenter", function() {
+//   nameToAdd.style.animation = "m";
+// });
+

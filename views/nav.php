@@ -7,11 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="<?= PATH_CSS ?>nav.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- <link rel="stylesheet" href="<?= PATH_CSS ?>loader.css"> -->
 
-    <script defer src="<?= PATH_SCRIPTS ?>navMenu.js" type="module"></script>
-    <!-- <script defer src="./loader/loader.js"></script>
-      <link rel="stylesheet" href="./loader/loader.css" /> -->
+  <script defer src="<?= PATH_SCRIPTS ?>navMenu.js" type="module"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <script defer src="./loader/loader.js"></script>
+    <link rel="stylesheet" href="./loader/loader.css" /> -->
 </head>
 
 <body>
@@ -25,7 +27,7 @@
   <nav>
     <ul>
       <div class="left">
-        <a href="index.php">
+        <a href="index.php" data-aos="fade-down" data-aos-duration="500">
           <li>Matéo Guenot</li>
         </a>
       </div>
@@ -33,19 +35,22 @@
         <div class="menu-btn-burger"></div>
       </div>
       <div class="right">
-        <a href="?page=competences">
-          <li>Compétences</li>
-        </a>
-        <a href="?page=CV">
-          <li>CV</li>
-        </a>
-        <a href="?page=projet">
+        <a href="?page=projet" data-aos="fade-down" data-aos-delay="50" data-aos-duration="500">
           <li>Projets</li>
         </a>
-        <a href="?page=contact">
+        <a href="?page=competences" data-aos="fade-down" data-aos-delay="100" data-aos-duration="500">
+          <li>Compétences</li>
+        </a>
+        <a href="?page=CV" data-aos="fade-down" data-aos-delay="150" data-aos-duration="500">
+          <li>CV</li>
+        </a>
+        <a href="?page=contact" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">
           <li>Contact</li>
         </a>
       </div>
     </ul>
   </nav>
   <div class="container-all">
+<script>
+  AOS.init();
+</script>

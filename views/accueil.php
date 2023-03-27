@@ -13,37 +13,25 @@
   <div class="circle"></div>
   <div class="circle"></div>
   <div class="followCircle"></div>
-  <h1>Je suis <span id="name">Maté<span id="int">o</span> Guenot</span>, étudiant en BUT informatique, passionné par les nouvelles technologies et <span id="toWrite"></span></h1>
+  <h1 data-aos="fade-left" data-aos-delay="500">Je suis <span id="name">Maté<span id="int">o</span> Guenot</span>, étudiant en BUT informatique, passionné par les nouvelles technologies et <span id="toWrite"></span></h1>
   <button class="toAbout">
     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" width="24px" height="24px"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 20L12 4" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M6 14L11.9375 19.9375V19.9375C11.972 19.972 12.028 19.972 12.0625 19.9375V19.9375L18 14" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
   </button>
 </section>
 <section class="about">
-  <div class="about-content">
+  <div class="about-content" data-aos="zoom-in-right">
     <h2>Qui suis-je ?</h2>
     <div class="about-text">
       <p>
-        Je suis un jeune développeur web, passionné par le développement
-        front-end. J'ai commencé à apprendre le développement web en
-        autodidacte, puis j'ai poursuivi cela dans mes études en réalisant
-        un Bachelor Universitaire de Technologies. J'ai pu apprendre les
-        bases du développement web comme
-        <span class="language-web"></span>
-      </p>
-      <p>
-        Ainsi que les langages de programmation les plus utilisés, tel que
-        le C, le Python et le Java.
-      </p>
-
-      <p>
-        Je suis actuellement à la recherche d'un stage de 3 mois en tant que
-        développeur web junior.
+        Je suis Matéo Guenot, un étudiant en informatique en BUT, et j'ai pour but de faire une école d'ingénieur en informatique pour me spécialiser dans un domaine de l'informatique.
       </p>
     </div>
+    <a href="?page=projet" id="toProject"><button class="toProject">Découvrir mes projets</button></a>
   </div>
-  <div class="about-img">
+  <div class="about-img" data-aos="zoom-in-left">
     <img src="<?= PATH_IMAGES ?>dev-pict.jpg" alt="about" />
   </div>
+  
 </section>
 </body>
 

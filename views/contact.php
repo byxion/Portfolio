@@ -9,8 +9,7 @@
     <h1>Contactez moi !</h1>
   </div>
   <div class="info">
-    <span>Mes infos</span>
-    <span>Email : mateo.guenot20@gmail.com</span>
+    <span>mateo.guenot20@gmail.com</span>
     <span>N'hésitez pas à me contacter si vous souhaitez plus d'information ou alors me rapporter un problème.</span>
   </div>
   <div class="form">
@@ -19,7 +18,10 @@
       <input type="text" name="email" placeholder="Email">
       <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
       <button type="submit">
-        <span>Envoyer</span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span> Envoyer
       </button>
     </form>
   </div>

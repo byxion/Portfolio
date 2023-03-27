@@ -22,7 +22,7 @@
     <article>
       <h2>PERSONNEL</h2>
       <div class="Personnel">
-        <span class="Nom-Age">Nom</span><span>Mateo Guenot</span>
+        <span class="Nom-Age">Nom</span><span>Matéo Guenot</span>
         <span class="Nom-Age">Age</span><span>20 ans</span>
         <span class="Nom-Age">Nationnalité</span><span>Français</span>
         <span class="Nom-Age">Langues</span><span>Français, Anglais</span>
@@ -74,7 +74,7 @@
       <h2>PROFIL</h2>
       <div class="Trait-noir-main"></div>
       <p>
-        Je suis Matéo Guenot, j'ai 19 ans. Ayant découvert l'informatique
+        Je suis Matéo Guenot, j'ai 20 ans. Ayant découvert l'informatique
         depuis peu, j'essaye de découvrir le plus de technologies pour
         trouver le métier qui me conviendrait le plus. J'adore réaliser des
         projets à plusieurs pour apprendre de chaque personne.
