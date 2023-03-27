@@ -198,3 +198,15 @@ button:active {
 .toCV {
   margin: clamp(1rem, 2.5vw, 1.5rem);
 }
+
+@media screen and (max-width: 750px) {
+  .sae {
+    flex-direction: column;
+  }
+
+  .sae .sujet,
+  .sae .image {
+    width: 90%;
+  }
+  
+}

@@ -23,7 +23,7 @@
     <h2>Qui suis-je ?</h2>
     <div class="about-text">
       <p>
-        Je suis Matéo Guenot, un étudiant en informatique en BUT, et j'ai pour but de faire une école d'ingénieur en informatique pour me spécialiser dans un domaine de l'informatique.
+        Je suis Matéo Guenot, un étudiant en informatique en BUT, et j'ai pour but de faire une école d'ingénieur en informatique pour me spécialiser dans un domaine de l'informatique. Je suis développeur full stack et j'utilise les langages suivants : HTML, CSS, JavaScript (ReactJs), PHP (Symfony), SQL, Java, C.
       </p>
     </div>
     <a href="?page=projet" id="toProject"><button class="toProject">Découvrir mes projets</button></a>
