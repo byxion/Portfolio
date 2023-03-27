@@ -159,7 +159,7 @@
     </div>
   </div>
   <div class="toCV">
-    <a href="?page=cv">
+    <a href="?page=CV">
       <button>Visonner mon CV</button>
     </a>
   </div>
