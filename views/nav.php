@@ -7,24 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio de Matéo Guenot, étudiant en développement informatique.">
   <title>Portfolio</title>
+  <link rel="icon" type="image/png" href="../assets/images/logo.png" />
   <link rel="stylesheet" href="<?= PATH_CSS ?>nav.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="<?= PATH_CSS ?>loader.css"> -->
 
   <script defer src="<?= PATH_SCRIPTS ?>navMenu.js" type="module"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- <script defer src="./loader/loader.js"></script>
-    <link rel="stylesheet" href="./loader/loader.css" /> -->
 </head>
 
 <body>
-  <!-- <div class="loader">
-    <span class="lettre">C</span><span class="lettre">H</span
-    ><span class="lettre">A</span><span class="lettre">R</span
-    ><span class="lettre">G</span><span class="lettre">E</span
-    ><span class="lettre">M</span><span class="lettre">E</span
-    ><span class="lettre">N</span><span class="lettre">T</span>
-  </div> -->
   <nav>
     <ul>
       <div class="left">

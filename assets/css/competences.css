@@ -33,9 +33,19 @@ h2 {
   font-weight: 500;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2rem;
+}
+
+.allcompetences {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin-top: clamp(1rem, 2.5vw, 2rem);
 }
 
 .sae {
@@ -138,6 +148,7 @@ button {
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+  cursor: pointer;
 }
 
 button:hover {

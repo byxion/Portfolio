@@ -7,6 +7,14 @@
 </head>
 <div class="title" data-aos="fade-down"data-aos-delay="500">
   <span>Voici la liste de mes compétences apprises avec mes projets SAÉ !</span>
+  <div class="allcompetences">
+    <span>UE1 : Réaliser</span>
+    <span>UE2 : Optimiser</span>
+    <span>UE3 : Administrer</span>
+    <span>UE4 : Gérer</span>
+    <span>UE5 : Conduire</span>
+    <span>UE6 : Collaborer</span>
+  </div>
 </div>
 <section class="allsae">
   <h2 data-aos="zoom-in" data-aos-delay="650">Semestre 1 :</h2>
@@ -160,7 +168,7 @@
   </div>
   <div class="toCV">
     <a href="?page=CV">
-      <button>Visonner mon CV</button>
+      <button>Visionner mon CV</button>
     </a>
   </div>
 </section>
