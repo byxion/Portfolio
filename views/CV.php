@@ -23,7 +23,7 @@
       <h2>PERSONNEL</h2>
       <div class="Personnel">
         <span class="Nom-Age">Nom</span><span>Matéo Guenot</span>
-        <span class="Nom-Age">Age</span><span>20 ans</span>
+        <span class="Nom-Age">Age</span><span>21 ans</span>
         <span class="Nom-Age">Nationnalité</span><span>Français</span>
         <span class="Nom-Age">Langues</span><span>Français, Anglais</span>
       </div>
@@ -74,7 +74,7 @@
       <h2>PROFIL</h2>
       <div class="Trait-noir-main"></div>
       <p>
-        Je suis Matéo Guenot, j'ai 20 ans. Ayant découvert l'informatique
+        Je suis Matéo Guenot, j'ai 21 ans. Ayant découvert l'informatique
         depuis peu, j'essaye de découvrir le plus de technologies pour
         trouver le métier qui me conviendrait le plus. J'adore réaliser des
         projets à plusieurs pour apprendre de chaque personne.
@@ -89,7 +89,7 @@
           2021-2024</span>
         <p>IUT Informatique Doua</p>
         <p>
-          Actuellement en deuxième année de B.U.T dans le parcours A,
+          Actuellement en troisième année de B.U.T dans le parcours A,
           Développement et réalisation d'applications.
         </p>
         <span data-year="2020">Lycée La Martinière Monplaisir 2018-2021</span>

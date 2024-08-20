@@ -166,6 +166,33 @@
       </div>
     </div>
   </div>
+    <h2>Semestre 5-6 :</h2>
+    <div class="scroll">
+        <div class="sem5">
+            <div class="sae">
+                <div class="sujet" data-aos="zoom-in-right" date-aos-duration="1000">
+                    <div class="title" data-aos="fade-right" data-aos-delay="50">
+                        <span>Alternance</span>
+                        <span>C#, JavaScript, PHP, Gestion du GIT, Cahier des charges, Planning d'un projet</span>
+                    </div>
+                    <div data-aos="fade-right" data-aos-delay="100">
+                        <p>Au cours de mon année d'alternance en tant que développeur informatique, j'ai eu l'opportunité de mettre en pratique et d'améliorer plusieurs compétences essentielles.
+                            <br>
+                            <span style="font-weight: bold">Réaliser</span> : J'ai participé à la refonte d'un logiciel complexe en C#, ce qui m'a permis de renforcer mes compétences en développement logiciel et en architecture de systèmes.
+                            <br>
+                            <span style="font-weight: bold">Optimiser</span> : J'ai conçu un programme en JavaScript et PHP permettant de calculer dynamiquement le prix des commandes en fonction des produits choisis, améliorant ainsi l'efficacité du processus de commande.
+                            <br>
+                            <span style="font-weight: bold">Gérer</span> : J'ai refondu une base de données SQL pour un site de revente de polices, en optimisant la structure et les requêtes afin d'améliorer les performances et la gestion des données.
+                            <br>
+                            <span style="font-weight: bold">Conduire</span> : J'ai coordonné le déploiement d'une application interne, en supervisant les étapes clés du projet et en assurant la communication entre les différentes équipes.
+                            <br>
+                            <span style="font-weight: bold">Collaborer</span> : Tout au long de cette expérience, j'ai su m'appuyer sur mes collègues, travaillant en étroite collaboration avec eux pour atteindre les objectifs fixés.</p>
+                    </div>
+                </div>
+                <div class="image" style="background-color: snow" data-aos="zoom-in-left" data-aos-delay="150"><img style="height: 100%" src="../assets/images/cobetix.png"></img></div>
+            </div>
+        </div>
+    </div>
   <div class="toCV">
     <a href="?page=CV">
       <button>Visionner mon CV</button>
